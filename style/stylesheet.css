@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+.navbar-hover:hover{
+    color: aqua !important;
+    transform: scale(0.99);
+    transition-delay:0.2s ;
+}
+.icon{
+    text-decoration: none;
+    color: aqua !important;
+    text-shadow: 0 0 3px #00ffff,
+                0 0 5px #1eb1b1;
+}
+.opacity{
+    animation: word 5s linear infinite alternate;
+}
+@keyframes word {
+    0% {opacity: 0;}
+    50%{opacity: 5;}
+    100%{opacity: 0;}
+}
+.img{
+    box-shadow:
+    0 0 20px 0px rgba(0, 200, 255, 0.7),
+    0 0 40px 0px rgba(0, 200, 255, 0.5),
+    0 0 60px 0px rgba(0, 200, 255, 0.3);
+    animation: float 3s ease-in-out infinite alternate;
+}
+@keyframes float {
+    from { transform: translateY(0); }
+    to   { transform: translateY(-10px); }
+}
+
+.btn-shadow{
+    box-shadow:
+    0 0 20px 0px rgba(0, 200, 255, 0.7),
+    0 0 40px 0px rgba(0, 200, 255, 0.5),
+    0 0 60px 0px rgba(0, 200, 255, 0.3);
+}
+.fa-brands{
+    transition-delay: 0.2s;
+}
+.fa-brands:hover{
+    transform:scale(0.98);
+    color: rgb(15, 51, 56) !important;;
+
+}

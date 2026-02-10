@@ -1,0 +1,40 @@
+.shadow-img{
+    box-shadow: 4px 5px 4px 0 #FDF0D5;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  
+}
+.hero-section{
+  background-image: url(./img/image\ 13\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+}
+.bgn-color{
+  background-color: #FDF0D5 !important;
+}
+.section {
+  background-image: url(./img/Rectangle\ 3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+}
+.text{
+  color:#714E42 !important;
+}
+.bg-image{
+  background-image:url(./img/Rectangle\ 13.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+.text-1{
+  color:#c14141;
+}
+.text-2{
+  color:#EBD914;
+}
